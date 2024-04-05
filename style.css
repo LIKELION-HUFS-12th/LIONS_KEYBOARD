@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BMHANNAPro';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;    
+}
+
+.main{
+    display: flex;
+    align-items: center;
+}
+.timetable{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.check{
+    margin-left: 100px;
+}
+.m{
+    margin-left: 20px;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: 'NanumSquareNeo-Variable';
+}
+.message{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.hidden{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: gray;
+    font-family: 'NanumSquareNeo-Variable';
+}
+.highlight{
+    color: navy;
+    font-weight: 600;
+    font-size: larger;
+}
+.on1{
+    margin-left: 117px;
+}
+.on2{
+    margin-left: 211px;
+}
+.on3{
+    margin-left: 100px;
+}
+.you{
+    margin-left: 9px;
+    font-size: 55px;
+    font-weight: 800;
+    font-family: 'NanumSquareNeo-Variable';
+    color: navy;
+}
+
+.yourmenu{
+    margin-left: 95px;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: 'NanumSquareNeo-Variable';
+}
+.with{
+    align-items: baseline;
+    margin-left: 25px;
+    font-size: 40px;
+    font-family: 'BMHANNAPro';
+}
+.of{
+    align-items: baseline;
+    font-size: 30px;
+}
+.title{
+    margin-bottom: 60px;
+}
