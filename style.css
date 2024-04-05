@@ -63,16 +63,18 @@
 
 .body1_mainsection{
     display: flex;
+
     flex-direction: column;
     justify-content:flex-start;
     align-items: flex-start;
+    padding: 38.5px 10px;
     flex-grow: 1;
-    padding: 90px 80px;
 }
 
 .body1_mainsection img{
     width: 20cm;
     height: 10.5cm;
+    padding: 46px 90px 0px 90px;
     margin: 0;
     max-width: 100%;
     padding: 14.5px 0px;
