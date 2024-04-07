@@ -4,44 +4,40 @@
   font-weight: normal;
   font-style: normal;
 }
-.ccombine {
+body {
   font-family: 'NanumSquareNeo-Variable';
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  float: left;
-  position: absolute;
 }
 
-.main-eunbin{
-  margin-top: 100px;
-  display:flex;
-  float: left;
-  margin-bottom:100px;
+.mmain{
+    display: flex;
+    margin: 100px;
+    float: left;
+    position: absolute;
 }
+
+.imgg {
+    height: 850px;
+    display: flex;
+    align-content: center;
+}
+
 
 .rightimgg {
-  display: flex;
-  height: 850px;
-  align-content: center;
-  margin-left:100px;
-  overflow:hidden;
-  animation: slide-slow 1s;
-  margin-top: 2%;
+    height: 850px;
+    display: flex;
+    align-content: center;
+    margin-left:30px
 }
 
-@keyframes slide-slow {
-    from {
-      margin-left: 10%;
-    }
-    to {
-      margin-left:100px;
-    }
+
+.rightimgg {
+    width:100%;
+    overflow:hidden;
   }
 
 .textt{
-  margin-left:55px;
-  margin-top: 10%;
+  margin-left: 25px;
+  margin-top: 3%;
   width: 800px;
   font-size: 45px;
   font-weight: bold;
@@ -49,28 +45,12 @@
   align-content: center;
 }
 
-.textt {
-  animation: slide-in 2s;
-  margin-top: 0%;
-  right: 0;
-}
 
-@keyframes slide-in {
-    from {
-      animation: slide-in 3s;
-      transform: translate(20%);
-      visibility: visible;
-      }
-      to {
-      transform: translate(0%);
-      visibility: visible;
-      }
-}
 
 .textcolor {
     color: rgb(44, 79, 168);
     font-size: larger;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .textcolor {
@@ -103,16 +83,15 @@
     }
 }
 
-#ttt {
+p {
     font-weight: light;
-    font-size:22px;
-    line-height: 44px;
-    margin-right:  30px;
+    font-size:18px;
+    line-height: 1;
 }
 .ttt{
   text-align: right;
   font-weight: light;
-  font-size:22px;
+  font-size:18px;
   line-height: 1;
-
+  
 }
