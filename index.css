@@ -621,8 +621,16 @@
     margin-left: 211px;
 }
 .on3{
-    margin-left: 100px;
+    margin-left: 110px;
 }
+
+.riceparty{
+    display: flex;
+    flex-wrap: wrap; /* 필요하면 이미지가 화면 너비를 초과할 때 줄 바꿈 */
+    justify-content: flex-start; 
+  }
+
+
 .you{
     margin-left: 9px;
     font-size: 55px;
